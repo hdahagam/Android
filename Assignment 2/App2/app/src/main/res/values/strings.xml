@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App2</string>
+    <string name="user_name">Hemanth Dahagam</string>
+    <string name="calc">Calculator</string>
+    <string name="cover_page">Cover Page</string>
+    <string name="Movies_bar">Movies</string>
+    <string name="Linear_layout">Linear Layout</string>
+</resources>

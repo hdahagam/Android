@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_one"
+        android:orderInCategory="100"
+        android:title="@string/cover_page"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_two"
+        android:orderInCategory="100"
+        android:title="@string/Linear_layout"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_three"
+    android:orderInCategory="100"
+    android:title="@string/calc"
+    app:showAsAction="never"/>
+    <item android:id="@+id/action_four"
+    android:orderInCategory="100"
+    android:title="@string/Movies_bar"
+    app:showAsAction="never"/>
+
+</menu>

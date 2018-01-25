@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeLayout" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#0a0bfc</item>
+    </style>
+    <style name="AppThemeLayout2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">#ff0000</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">#c63939</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#ff0040</item>
+    </style>
+    <style name="AppThemeLayout3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">#00ffff</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">#808000</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#e6e600</item>
+    </style>
+</resources>

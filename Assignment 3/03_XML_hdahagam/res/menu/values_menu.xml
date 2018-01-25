@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/cover_page" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/action_one"/>
+    <item android:title="@string/MovieView" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/action_two"/>
+    <item android:title="@string/DetailFlow" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/action_three"/>
+
+</menu>
